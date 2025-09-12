@@ -5,7 +5,7 @@ stages {
      stage('Clone Repository') {
 steps {
                    script {
-sh "echo 'Hello'"
+sh "echo Hello"
 }
 }
 }
