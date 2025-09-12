@@ -4,9 +4,7 @@ agent any
 stages {
      stage('Clone Repository') {
 steps {
-                   script {
-sh "echo Hello"
-}
+      eco "clouned repostery message from bhuvan"
 }
 }
 }
