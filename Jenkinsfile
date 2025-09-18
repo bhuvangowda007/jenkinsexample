@@ -9,9 +9,8 @@ stages {
      stage('Clone Repository') {
 steps {
  echo $PATH
- script {
 }
 }
 }
 }
-}
+
