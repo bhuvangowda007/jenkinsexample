@@ -1,8 +1,8 @@
 pipeline {
  
 agent any
- environment {
-    PATH = "/usr/local/bin:C:/Program Files/Docker/Docker/resources/bin;${env.PATH};C:/Program Files/Git/bin/"
+ environment 
+    PATH = "/usr/local/bin: C:/Program Files/Git/bin;C:/Program Files/Docker/Docker/resources/bin;${env.PATH}"
     
 }
 stages {
