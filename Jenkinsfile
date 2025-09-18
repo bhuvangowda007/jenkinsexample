@@ -9,7 +9,7 @@ stages {
      stage('Clone Repository') {
 steps {
  script {
-  sh    "echo 'clouned repostery message from bhuvan'"
+  sh    "echo $PATH"
 }
 }
 }
