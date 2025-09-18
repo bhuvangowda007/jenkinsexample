@@ -8,7 +8,7 @@ agent any
 stages {
      stage('Clone Repository') {
 steps {
- echo ${env.PATH}
+ echo "${env.PATH}"
 }
 }
 }
