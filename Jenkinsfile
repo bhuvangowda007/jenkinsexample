@@ -9,6 +9,9 @@ stages {
      stage('Clone Repository') {
 steps {
  echo "${env.PATH}"
+ script{
+  sh "echo $PATH"
+ }
 }
 }
 }
