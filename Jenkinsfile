@@ -8,8 +8,8 @@ agent any
 stages {
      stage('Clone Repository') {
 steps {
+ echo $PATH
  script {
-  sh    "echo $PATH"
 }
 }
 }
