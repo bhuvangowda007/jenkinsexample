@@ -10,7 +10,11 @@ stages {
 steps {
  echo "${env.PATH}"
  script{
-  sh "echo $PATH"
+  sh '''
+            #!/bin/bash
+            echo "Hello from a multi-line script!"
+            ls -l
+        '''
  }
 }
 }
