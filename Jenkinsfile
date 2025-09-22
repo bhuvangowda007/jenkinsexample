@@ -8,7 +8,7 @@ agent any
 stages {
      stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/mitibhat/jenkinsexample.git' // Replace with your repository URL
+                git branch: 'main', url: 'https://github.com/bhuvangowda007/jenkinsexample.git' // Replace with your repository URL
             }
         }
       
