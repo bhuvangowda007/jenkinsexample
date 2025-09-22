@@ -9,11 +9,7 @@ stages {
      stage('Clone Repository') {
 steps {
  echo "${env.PATH}"
-  sh '''
-            #!/bin/bash
-            echo "Hello from a multi-line script!"
-            ls -l
-        '''
+  sh "echo ${env.PATH}"
 }
 }
 }
