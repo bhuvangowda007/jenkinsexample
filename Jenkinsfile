@@ -16,7 +16,7 @@ stages {
          stage('Hello') {
                 steps {
                    script {
-                    withCredentials([usernamePassword(credentialsId: 'dockerhub-credentials',usernameVariable: 'USERNAME',passwordVariable: 'PASSWORD')]){
+                    withCredentials([usernamePassword(credentialsId: 'docker-credentials',usernameVariable: 'USERNAME',passwordVariable: 'PASSWORD')]){
                      sh "echo $USERNAME"
                        
                      sh "echo $PASSWORD"
